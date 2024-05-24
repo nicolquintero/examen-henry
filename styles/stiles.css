@@ -1,0 +1,15 @@
+header{
+    background-image: url(./../assetes/images/banner-bk.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.texto{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    font-size: 200px;
+    color: white;
+}
