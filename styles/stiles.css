@@ -73,7 +73,16 @@ section{
     gap: 15px;
     margin: 10px;
 }
-
+.logo1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px;
+}
+.gradiente {
+    background: linear-gradient(168deg, white 60%, #1df1b2 0);
+}
 h4{
     color: rgb(54, 54, 54);
 }
@@ -89,9 +98,7 @@ p{
     color: rgb(54, 54, 54);
 }
 
-.gradiente {
-    background: linear-gradient(168deg, white 60%, #1df1b2 0);
-}
+
 
 .button{
     color: rgb(255, 249, 249);
@@ -135,6 +142,8 @@ p{
 .container1{
     transform: translate(0%,-50%);  
 }
+
+
 
 .p{
     transform: translate(45%,-300%);
@@ -235,7 +244,7 @@ p{
 .imagenes1{
     padding-top: 3%;
     width: 100%;
-    height: 90px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -333,7 +342,7 @@ label{
     width: 100%;
     background-color: rgb(18, 27, 70);
     color: white;  
-    transform: translate(0%,-800%);
+    transform: translate(-0%,-780%);
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -342,6 +351,497 @@ label{
 .img0 footer{
     width: 10%;
     padding: 10%;
-    height: 3%;
+    height: 0%;
+  }
+
+
+  @media (max-width:921px){
+
+.texto{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-40%,-200%);
+    font-size: 50px;
+    color: white;
+}
+
+.lo{
+    color: white;
+    display: flex;
+    font-size: 120%;
+    padding: 5%;
+    padding-top: 25%;  
+}
+
+button{
+    color: black;
+    width: 170px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    transform: translate(0%,-90%);
+}
+.container1{
+    transform: translate(-5%,-50%);  
+}
+
+ .p{
+    transform: translate(53%,-400%);
+} 
+
+.check{
+    padding-top: 180%;
+    font-size: 40px;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 38% ;
+}
+
+.c3{
+    font-size: 50px;
+    justify-content: flex-end;
+    display: flex;
+    transform: translate(-0%,-900%);
+}
+
+.articulo{
+    width: 100%;
+    background-color: rgb(18, 27, 70);
+    margin-bottom:85%;
+    height: 450px;
+}
+.box1{
+    
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.imagenes1{
+    padding-top: 3%;
+    width: 100%;
+    height: 50px;
+    margin-top: -60%;
   }
   
+
+  .texto9{
+    position: absolute;
+    transform: translate(16%,220%);
+    font-size: 50px;
+    color: white;
+}
+
+
+
+.formulario {
+    margin-top: 33px;
+    margin-bottom: 12px;
+    
+    
+}
+
+.form {
+    width: 50%;
+    padding: 1%;
+    border-radius: 4%;
+    margin-bottom: 90%;
+    display: flex;
+    justify-content: center;
+    transform: translate(120%,-40%);
+}
+
+.sugerencias{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.formulario1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-bottom: 12px;
+    transform: translate(-70%,-40%);
+}
+.nombre{
+    transform: translate(700%,-15%);
+    
+    
+}
+.boton{
+    color: rgb(18, 27, 70);
+    width: 270px;
+    height: 40px;
+    background-color:aqua;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: flex-end;
+    
+    }
+    
+
+.footern{
+        height: 100px;
+        width: 100%;
+        background-color: rgb(18, 27, 70);
+        color: white;  
+        transform: translate(-0%,-900%);
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+  }
+  
+}
+
+
+
+@media (max-width:352px){
+
+.texto{
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    font-size: 40px;
+    color: white;
+}
+
+header{
+    padding: 5%;
+}
+
+.lo{
+    color: white;
+    display: flex;
+    font-size: 120%;
+    padding: 5%;
+    padding-top: 35%;  
+}
+
+button{
+    color: black;
+    width: 170px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.titulo{
+    padding-top: 10%;
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 20% 
+}
+
+.logo{
+    width: 30%;  
+    padding-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+.logo1{
+    width: 30%;  
+    padding-top: 13%;
+    
+}
+.gradiente {
+    background: linear-gradient(168deg, white 60%, #1df1b2 0);
+}
+
+.c2{
+    font-size: 30px;
+    padding: 10%;   
+}
+
+p{
+    padding: 6%;
+    color: rgb(54, 54, 54);
+    width: 30%;  
+}
+.button{
+    color: rgb(255, 249, 249);
+    width: 170px;
+    height: 40px;
+    background-color: rgba(1, 20, 29, 0.836);
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+   
+}
+
+.img9{
+    margin-bottom: 100%;
+   
+    
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+}
+.p0{ 
+    margin-bottom: 80%;
+    
+}
+
+img{
+    float: left; 
+    width: 90%; 
+    height: 90%;
+    margin-right: 5%;
+}
+
+
+.c3{
+    font-size: 30px;
+    justify-content: flex-end;
+    display: flex;
+    margin-bottom:90%;
+}
+
+.container1{
+    margin-top: 130%;
+}
+
+.button1{
+    color: rgb(255, 249, 249);
+    width: 170px;
+    height: 40px;
+    background-color:rgb(18, 27, 70);
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: flex-end;
+    
+}
+
+
+
+
+
+.check{
+    padding-top: -190%;
+    font-size: 40px;
+    display: flex;
+    
+    top: 190%;
+    left: 38% ;
+}
+
+.cuadros{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.head{
+    height: 60vh;
+    width: 73%; 
+}
+
+.head1{
+    height: 60vh;
+    width: 60%; 
+    color: white;
+}
+
+.box{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.box1{
+    
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    padding-left: 6%; 
+    margin-bottom:30%;
+}
+
+.e{
+    color: rgb(0, 0, 0);
+    width: 170px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid rgb(18, 27, 70);
+}
+
+.i{
+    color:rgb(18, 27, 70);
+    width: 170px;
+    height: 40px;
+    background-color: aqua;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.articulo{
+    width: 100%;
+    background-color: rgb(18, 27, 70);
+    margin-bottom:42%;
+}
+
+.n{
+    color: white;
+}
+
+.s{
+    margin: 5%;
+    padding: 5%;
+  }
+
+.imagenes1{
+    padding-top: 3%;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(201, 200, 200);
+    margin-top: -25%;
+  }
+
+  .img7{
+    background-image: url(/assets/images/contact-bk.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5%;
+}
+
+.texto9{
+    position: absolute;
+    
+    font-size: 50px;
+    color: white;
+}
+
+.li{
+    color: white;
+    display: flex;
+    font-size: 100%;
+    padding: 5%;
+    padding-top: 18%;  
+}
+
+.le{
+    color: white;
+    display: flex;
+    font-size: 100%;
+    padding: 5%;
+    padding-top: 18%;  
+    margin-top: -20%;
+}
+
+.formulario {
+    margin-top: 33px;
+    margin-bottom: 12px;
+    
+    
+}
+
+.form {
+    width: 50%;
+    padding: 1%;
+    border-radius: 4%;
+    margin-bottom: 56%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sugerencias{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.formulario1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-bottom: 12px;
+    
+}
+
+.boton{
+    color: rgb(18, 27, 70);
+    width: 270px;
+    height: 40px;
+    background-color:aqua;
+    border-radius: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    justify-content: flex-end;
+    
+}
+
+label{
+    color:aqua;
+}
+
+.footern{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(18, 27, 70);
+    color: white;  
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+} 
+
+
+
+}
