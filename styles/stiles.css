@@ -63,19 +63,7 @@ img{
 
 }
 
-button{
-    border: none;
-    border-radius: 6px;
-    padding: 0.7rem;
-}
 
-button a{
-    color: black;
-}
-
-ul{
-    width: 100%;
-}
 
 .text{
     width: 90%;
@@ -95,20 +83,51 @@ footer{
 
 
 @media (max-width:352px){
-    .box{
-        background-color: white;
-        width: 100%;
-        height: 880px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    
+    .texto{
+        position: absolute;
+        top: 55%;
+        left: 15%;
+        font-size:70px;
+        color:rgb(255, 255, 255);
     }
+
+    
+.box{
+    background-color: white;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
-.texto{
-    position: absolute;
-    top: 55%;
-    left: 15%;
-    font-size:70px;
-    color:rgb(255, 255, 255);
+
+
+.container{
+    height: clamp(580px,580px,580px);
+    width: 550px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+    overflow: hidden;
+    border-radius: 16px;
+
 }
+
+
+
+.text{
+    width: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+    
 }
