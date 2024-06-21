@@ -1,4 +1,7 @@
-.img{
+*{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.img1{
     background-image: url(/assets/images/gunsNroses.jpg);
     height: 100vh;
     width: 100%;
@@ -7,9 +10,105 @@
 }
 .texto{
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 25%;
-    transform: translate(-50%,-50%);
-    font-size: 50px;
-    color:black;
+    font-size:70px;
+    color:rgb(255, 255, 255);
+}
+
+.parrafo1{
+    padding-top: 1%;
+    height:135px;
+    width: 100%;
+    background-color: #123e9c;;    
+    color: white;
+}
+
+
+
+article{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+img{
+    width: 100%;
+    height: 30%;
+}
+
+
+
+.box{
+    background-color: white;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.container{
+    height: clamp(580px,580px,580px);
+    width: 250px;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+    overflow: hidden;
+    border-radius: 16px;
+
+}
+
+button{
+    border: none;
+    border-radius: 6px;
+    padding: 0.7rem;
+}
+
+button a{
+    color: black;
+}
+
+ul{
+    width: 100%;
+}
+
+.text{
+    width: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media (max-width:352px){
+    .box{
+        background-color: white;
+        width: 100%;
+        height: 880px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.texto{
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    font-size:70px;
+    color:rgb(255, 255, 255);
+}
 }
