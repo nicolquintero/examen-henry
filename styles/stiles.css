@@ -1,0 +1,15 @@
+.img{
+    background-image: url(/assets/images/gunsNroses.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.texto{
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color:black;
+}
